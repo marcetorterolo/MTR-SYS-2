@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MTRSYS.Web.Models.DataTypes.DTComputadora>
+
+@{
+    ViewBag.Title = "Index 2";
+}
+
+<div class="block-title">
+    <h2>Listado de PC's (con RAM >= 8Gb)</h2>
+    <p>Los Id de las PC estan formados por los Id de sus componentes (disco-procesador-memoria)</p>
+    <br />
+</div>
+
+<table class="table table-striped table-bordered table-condensed table-vcenter">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiscoTipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiscoMarca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiscoCapacidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProcesadorModelo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MemoriaMarca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MemoriaCapacidad)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiscoTipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiscoMarca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiscoCapacidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProcesadorModelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemoriaMarca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemoriaCapacidad)
+            </td>
+        </tr>
+    }
+</table>

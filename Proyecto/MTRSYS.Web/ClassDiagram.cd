@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MTRSYS.Web.Handler.ComputadoraHandler" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAAQAAAAAAAAAAAAAQABABAAAAEAAQAAAAAAAA=</HashCode>
+      <FileName>Handler\ComputadoraHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Handler.DiscoHandler" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEBABAAAAQCAAAAAIAAAA=</HashCode>
+      <FileName>Handler\DiscoHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Handler.MemoriaHandler" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAABABAAAAAAAgAAAIAEAA=</HashCode>
+      <FileName>Handler\MemoriaHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Handler.ProcesadorHandler" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAAAAAAgAAAAAABABAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Handler\ProcesadorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.DataTypes.DTComputadora" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAQAAAAAAAAgAAAAAAABgAAAgAAAAAAgAA=</HashCode>
+      <FileName>Models\DataTypes\DTComputadora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.DataTypes.DTDisco" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQ=</HashCode>
+      <FileName>Models\DataTypes\DTDisco.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tipo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.DataTypes.DTMemoria" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Models\DataTypes\DTMemoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.DataTypes.DTProcesador" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\DataTypes\DTProcesador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.Entidades.Computadora">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABAAgAAAAAgAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Models\Entidades\Computadora.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Disco" />
+      <Property Name="Procesador" />
+      <Property Name="Memoria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.Entidades.Disco" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQ=</HashCode>
+      <FileName>Models\Entidades\Disco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.Entidades.Memoria" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Models\Entidades\Memoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.Entidades.Procesador" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Entidades\Procesador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.Entidades.SolidState" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Entidades\SolidState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Models.Entidades.HardDrive" Collapsed="true">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Entidades\HardDrive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTRSYS.Web.Controllers.HomeController" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MTRSYS.Web.Models.Entidades.TipoDisco" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Entidades\Disco.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

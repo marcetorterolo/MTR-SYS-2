@@ -1,0 +1,27 @@
+﻿// <copyright file="Memoria.cs" company="Marcelo Torterolo">
+// Copyright (c) Marcelo Torterolo. All rights reserved.
+// </copyright>
+
+namespace MTRSYS.Web.Models.Entidades
+{
+    /// <summary>
+    /// Clase que representa una memoria en el sistema.
+    /// </summary>
+    public class Memoria
+    {
+        /// <summary>
+        /// Gets or sets Id.
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
+        /// Gets or sets Marca.
+        /// </summary>
+        public string Marca { get; set; }
+
+        /// <summary>
+        /// Gets or sets Capacidad.
+        /// </summary>
+        public int Capacidad { get; set; }
+    }
+}
